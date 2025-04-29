@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/scripts.js" defer></script>
-     <!-- Fontes -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <!-- Icone do site -->
 
-    <link rel="icon" href="./images/top-trucks-favicon.png" type="image/x-icon">
-    <title>Document</title>
-</head>
+
+<?php
+
+// Criamos o arquivo head que tem tudo para mudar o titulo da pagina
+// Então mudando a variavel e reutilizando o arquivo, mudamos facilmente o titulo
+
+$title = "Top Trucks";
+include './Include/head.inc.php';
+?>
+
 <body>
-    <h1>Subscribe</h1>
+    <?php
+    //Aqui adicionamos a parte de navegação, faz funcionar as 3 barrinhas
+    // e Aparece o topo da pagina
+
+    include './Include/navigation.inc.php';
+    ?>
+
+    <section class="hero-container";>
+        
+    </section>
 </body>
 </html>
